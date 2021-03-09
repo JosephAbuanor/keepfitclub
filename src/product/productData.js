@@ -1,12 +1,14 @@
 export const productData=[
 {
-    name:"1",
+    id:"1",
+    name:"nom",
     desc:"x",
     price:"y",
     quantity:"z",
 },
 {
-    name:"2",
+    id:"2",
+    name:"prenom",
     desc:"a",
     price:"b",
     quantity:"c",

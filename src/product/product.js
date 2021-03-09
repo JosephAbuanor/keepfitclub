@@ -16,6 +16,9 @@ export default function Product(){
             <table>
                 <thead>
                     <tr>
+                    <td>
+                        ID
+                    </td>
                         <td>
                             Name
                         </td>
@@ -32,6 +35,7 @@ export default function Product(){
                     {productData.map((item)=>{
                         return(
                             <tr>
+                            <td>{item.id}</td>
                             <td>{item.name}</td>
                             <td>{item.desc}</td>
                             <td>{item.price}</td>
