@@ -12,7 +12,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Login/>
-          </Route>
+          </Route> 
           <Route path="/signup">
             <Signup/>
           </Route>
